@@ -75,7 +75,9 @@ function keyPressed() {
 if( keyCode== (LEFT_ARROW)){
 			fairy.velocityX = -20
 		}
-		
+		if(keyCode ==(DOWN_ARROW)){
+			Body.setStatic(starBody,false);
+		}
 				
 	  
 
